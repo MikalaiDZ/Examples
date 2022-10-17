@@ -13,17 +13,17 @@ Console.SetCursorPosition(xa, ya);
 Console.WriteLine("*");
 
 Console.SetCursorPosition(xb, yb);
-Console.WriteLine("*");
+Console.WriteLine("+");
 
 Console.SetCursorPosition(xc, yc);
-Console.WriteLine("*");
+Console.WriteLine("-");
 
 
 int x = xa, y = xb;
 
 int count = 0;
 
-while(count<10000)
+while(count<5000)
 {
     int what = new Random().Next(0, 3); 
     if(what == 0)
